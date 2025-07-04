@@ -1,0 +1,32 @@
+{
+  "name": "eel418-smartcontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "node": "npx hardhat node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbraaoCG/EEL418-SmartContract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbraaoCG/EEL418-SmartContract/issues"
+  },
+  "homepage": "https://github.com/AbraaoCG/EEL418-SmartContract#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.25.0"
+  },
+  "dependencies": {
+    "solc": "^0.8.30"
+  }
+}
