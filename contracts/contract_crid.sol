@@ -162,3 +162,5 @@ contract InscricaoDisciplina {
         return totalVagas - vagasOcupadas;
     }
 }
+
+// Adicionando uma linhas para testar PR
